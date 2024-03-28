@@ -1,31 +1,15 @@
 <!DOCTYPE html>
 <html>
    <head>
-      <title>My Resume</title>
-      <style>
-         body {
-             font-family: Arial, sans-serif;
-             line-height: 1.6;
-             margin: 0;
-             padding: 0;
-         }
-         header {
-            background: #333;
-            color: #fff;
-            text-align: center;
-            padding: 1rem;
-        }
-        section {
-            padding: 1rem;
-        }
-      </style>
+      <title> Link CSS to HTML</title>
+      <link rel = "stylesheet" type="text/css" href="styles.css">
    </head>
    <body>
       <!-- Write your HTML in this file! -->
       <header>
-         <h1>My Resume</h1>
+         <h1 id="mainHeading" >My Resume</h1>
       </header>
-      <img src="Adeboje_Adeola_338-HPE-0294.jpg" alt="Profile picture" width="600" height="450" style="float:right">
+      <img src="Adeboje_Adeola_338-HPE-0294.jpg" alt="Profile picture" width="400" height="450" style="float:right">
       <main>
          <h2>Research/Data Analyst</h2>
          <article> 
@@ -67,6 +51,11 @@
                I would like to manage websites for big companies and organizations all over the world.
             </p>
          </article>
+
+         <p class="funParagraph">This is a fun paragraph!</p>
+
+         <p id="testP">This is a paragraph with the id "testP".</p>
+
          <!--<h1>The footer element</h1> -->
       </main>
       <footer>
